@@ -41,7 +41,7 @@ public class Game extends JPanel{
 	
 	Timer t;
 	
-	String direction = "right";
+	String direction = "down";
 
 	public Game() {
 		this.setLayout(null);
