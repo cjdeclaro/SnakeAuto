@@ -47,7 +47,7 @@ public class Game extends JPanel{
 		this.setLayout(null);
 		this.setBackground(Color.WHITE);
 		
-		t = new Timer(1000/10, e -> run());
+		t = new Timer(1000/60, e -> run());
 		
 		run();
 		
