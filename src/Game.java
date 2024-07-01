@@ -1,8 +1,8 @@
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.util.Random;
+import java.awt.event.KeyListener; 
+import java.util.Random; 
 
 import javax.swing.*;
 
@@ -41,7 +41,7 @@ public class Game extends JPanel{
 	
 	Timer t;
 	
-	String direction = "down";
+	String direction = "right";
 
 	public Game() {
 		this.setLayout(null);
