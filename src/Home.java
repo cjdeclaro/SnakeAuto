@@ -5,7 +5,7 @@ public class Home {
 		JFrame frm = new JFrame("Snake Auto - Jermaine");
 		
 		frm.setVisible(true);
-		frm.setSize(500,500);
+		frm.setSize(1000,500);
 		
 		Game g = new Game();
 		frm.add(g);
