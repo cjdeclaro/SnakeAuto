@@ -7,7 +7,7 @@ import java.util.Random;
 import javax.swing.*;
 
 public class Game extends JPanel{
-	int bodyLength = 10;
+	int bodyLength = 2;
 	
 	Random rand = new Random();
 	int foodX = rand.nextInt(25) * 20;
